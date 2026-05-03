@@ -5,16 +5,16 @@ class Gloss < Formula
 
   if OS.mac? && Hardware::CPU.arm?
     url "https://github.com/Architeg/gloss/releases/download/v0.1.0/gloss-darwin-arm64.zip"
-    sha256 "97aadee2ab362f11e210653af95d08ab9835e5520c581aacc944b89ce4db61e4"
+    sha256 "9ea5afb1267a940959bd0de288c26eb16b35e3ffa5336504080f0a8d7920fd35"
   elsif OS.mac? && Hardware::CPU.intel?
     url "https://github.com/Architeg/gloss/releases/download/v0.1.0/gloss-darwin-amd64.zip"
-    sha256 "af5d25486a1812e4f91cc4d5212a3bf079b451d656e433e90aaa7ada0dc78da7"
+    sha256 "d59b23bfcdc24639219262c27266054c96c65bc8e270106e975010d797fff730"
   elsif OS.linux? && Hardware::CPU.intel?
     url "https://github.com/Architeg/gloss/releases/download/v0.1.0/gloss-linux-amd64.zip"
-    sha256 "14b726ccf3edf8d0d904cce4c27baaf69c04d350d20737381012384b134d1d65"
+    sha256 "cd583184e306fb740538c73f7fab616bc4830cd1136bb55a296ca5dac7a30a45"
   elsif OS.linux? && Hardware::CPU.arm?
     url "https://github.com/Architeg/gloss/releases/download/v0.1.0/gloss-linux-arm64.zip"
-    sha256 "bd0ae79b381a618e7a2c994721a196f87bf816def639c339ff4aa38867c2029e"
+    sha256 "0ba8fb048fae6d8520c7ae5805b092db297eef98c11ad39a815eca7d18ef6ad9"
   end
 
   def install
