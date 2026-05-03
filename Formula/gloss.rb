@@ -22,6 +22,6 @@ class Gloss < Formula
   end
 
   test do
-    assert_match "gloss #{version}", shell_output("#{bin}/gloss version")
+    assert_match "gloss #{version}", shell_output("#{bin}/gloss version") 
   end
 end
